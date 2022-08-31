@@ -17,6 +17,8 @@ class NovaGenerator implements Generator
 {
     use HasStubPath;
 
+    protected $types = ['nova'];
+
     /** @var \Illuminate\Contracts\Filesystem\Filesystem */
     private $files;
 
